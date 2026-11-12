@@ -1,0 +1,37 @@
+Acquire-By-Hash: yes
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Thu, 12 Nov 2026 22:03:25 +0000
+Description: KiviDB packages, https://packages.kividb.io
+Label: KiviDB
+Origin: KiviDB
+Suite: stable
+MD5Sum:
+ c3aa3c7bb1b715e6b8ea73106a5ca5f5             1346 main/binary-amd64/Packages
+ e535847696e682d5aa6a6b173f422751              702 main/binary-amd64/Packages.gz
+ c47ceaa65db564fa80bc01069caee0de               81 main/binary-amd64/Release
+ dc2eed4bf69f71d23f8c8eb71f0fd271             1346 main/binary-arm64/Packages
+ 83100e51123751d63d2dad5ded95a867              704 main/binary-arm64/Packages.gz
+ 8ff1e288d59c69b954b157b44e9300d5               81 main/binary-arm64/Release
+SHA1:
+ 013fd99419719c6e71cc8e287c90a2697a824641             1346 main/binary-amd64/Packages
+ ccf76cc989f9028c5ddca9e9a696e3ad467a8bd2              702 main/binary-amd64/Packages.gz
+ 3b74c26e699bf22ff5d34d3d7d7b58480c1ef3cc               81 main/binary-amd64/Release
+ 20966bb9c699abb7eaf43d9ff0dd0f18046ec986             1346 main/binary-arm64/Packages
+ b1a69bae2f0afe3e9db9c965dc9e292604672ea4              704 main/binary-arm64/Packages.gz
+ 22e1c3c98708ad04abb03ee1d2f4da08f738de28               81 main/binary-arm64/Release
+SHA256:
+ 14f1759a3dbeb7c07b28add8f74538eef0efda0562b6243e68af3eb34f297504             1346 main/binary-amd64/Packages
+ c22a18618030df370329849910ad752b7b835ef9571b9e0feae730e1526f05b2              702 main/binary-amd64/Packages.gz
+ 107cf5edd7764cd3d5a212ea6aae77c9c6b1b49c70257d5461c649bd60fd95ff               81 main/binary-amd64/Release
+ 0f81603c38db9b8f95ecd372ab789caa9773b3a456f454ef033fa3cff866c3ff             1346 main/binary-arm64/Packages
+ 9febdb4de605d233c5f71dadd23f78b3dc31b31e409ebdfc9a74776b42f4dab4              704 main/binary-arm64/Packages.gz
+ fda03ab81e2f23b9647955b6ceb2d134b5e1049c2a183a3823a84acd2c1189ff               81 main/binary-arm64/Release
+SHA512:
+ 0388129d9ca5c4bfb989bdb2c1094fafddb5c7f0df88264aa137e4728d9b88836eaab3176ea0ece1f7d9b7186af93b5d57a5026d00b9a1c74b3d2074dd2e2901             1346 main/binary-amd64/Packages
+ 299036b73d0547bafa90080ba6aadcfe3044c72a69f130220df86d9a3bd1583217e4b566824a556e000ee32eda2f2152f86ddfdf2ae910d9d917190871d81cc8              702 main/binary-amd64/Packages.gz
+ 6ca922d0f1e7ed37c00e091c012e8d3eeedfa0a76d72054b8a50c35e3ff64ea2bfca830058dce719ff7be35929a23138a156006fc6311807ec11fe0e484af4b1               81 main/binary-amd64/Release
+ 022261ac0cbee2231e09831331d4275d6755b2f53a1970d77d56c5a62a5a2fcc2c1a31f38a455e6ff267e7a47bb89db04bd6edd1083d30bf614bba30b1d43f50             1346 main/binary-arm64/Packages
+ 7182f0d8d5018f10a9fd32f51754f97344cfb41a6a7a07c498ff53caf2d8b8e815f6d21b31d5698670ff10b3379ba842e24485986fd785632158e6f314348306              704 main/binary-arm64/Packages.gz
+ 32a682564977e508c26ad2f928b8728e1576bbe2ec1f7be480ecf928a92e4e195f44a1182a3484a62c645a3ae29db9509394dec062a78bbbec652c2404f2e2e4               81 main/binary-arm64/Release

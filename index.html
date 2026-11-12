@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KiviDB packages</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:46rem;margin:2rem auto;padding:0 1rem}pre{background:#f4f4f4;padding:.75rem;overflow-x:auto}code{font-size:.9em}</style>
+</head><body>
+<h1>KiviDB packages</h1>
+<p>apt and dnf repositories for <a href="https://github.com/kividbio/kividb">KiviDB</a>, the default
+build (no Lua, no TLS), for amd64/x86_64 and arm64/aarch64. Metadata and RPMs are signed with the key
+<code>649217DE0F7FD7DB3D7BAC3AE21D8F6EDDE5F489</code>.</p>
+<h2>Debian and Ubuntu</h2>
+<pre>sudo install -d -m 0755 /etc/apt/keyrings
+curl -fsSL https://packages.kividb.io/kividb.gpg | sudo tee /etc/apt/keyrings/kividb.gpg &gt;/dev/null
+curl -fsSL https://packages.kividb.io/kividb.sources | sudo tee /etc/apt/sources.list.d/kividb.sources &gt;/dev/null
+sudo apt update &amp;&amp; sudo apt install kividb</pre>
+<h2>Fedora, RHEL and compatibles, Amazon Linux 2023</h2>
+<pre>sudo curl -fsSL -o /etc/yum.repos.d/kividb.repo https://packages.kividb.io/kividb.repo
+sudo dnf install kividb</pre>
+<p>Full instructions: <a href="https://github.com/kividbio/kividb/blob/master/docs/INSTALL.md">docs/INSTALL.md</a>.
+The newest 20 versions are kept.</p>
+<h2>Versions</h2>
+<ul>
+<li><a href="deb/pool/main/k/kividb/kividb_1.2.1_amd64.deb">kividb_1.2.1_amd64.deb</a></li>
+<li><a href="deb/pool/main/k/kividb/kividb_1.2.1_arm64.deb">kividb_1.2.1_arm64.deb</a></li>
+<li><a href="deb/pool/main/k/kividb/kividb_1.2.2_amd64.deb">kividb_1.2.2_amd64.deb</a></li>
+<li><a href="deb/pool/main/k/kividb/kividb_1.2.2_arm64.deb">kividb_1.2.2_arm64.deb</a></li>
+<li><a href="rpm/aarch64/Packages/kividb-1.2.1-1.aarch64.rpm">kividb-1.2.1-1.aarch64.rpm</a></li>
+<li><a href="rpm/aarch64/Packages/kividb-1.2.2-1.aarch64.rpm">kividb-1.2.2-1.aarch64.rpm</a></li>
+<li><a href="rpm/x86_64/Packages/kividb-1.2.1-1.x86_64.rpm">kividb-1.2.1-1.x86_64.rpm</a></li>
+<li><a href="rpm/x86_64/Packages/kividb-1.2.2-1.x86_64.rpm">kividb-1.2.2-1.x86_64.rpm</a></li>
+</ul></body></html>

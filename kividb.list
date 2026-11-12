@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/keyrings/kividb.gpg] https://packages.kividb.io/deb stable main

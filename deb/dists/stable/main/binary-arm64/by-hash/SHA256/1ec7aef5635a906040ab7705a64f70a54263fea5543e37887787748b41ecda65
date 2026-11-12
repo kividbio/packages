@@ -1,0 +1,17 @@
+Package: kividb
+Architecture: arm64
+Version: 1.2.1
+Priority: optional
+Maintainer: KIVIDB PRIVATE LIMITED <support@kividb.io>
+Installed-Size: 15679
+Depends: libc6 (>= 2.34)
+Filename: pool/main/k/kividb/kividb_1.2.1_arm64.deb
+Size: 6355944
+MD5sum: 055e20c530fc2d976f0bf77078464c16
+SHA1: 8934571bb29332edc3b0d52e5212ddd9c825a3a7
+SHA256: 16813376ed801b9509140b669c0ac73086a8bfc94f00aafc130d68832a0884ca
+SHA512: afbe233fa4609ee7412aed2934054901a682fa1dc61e0b68412276f0ccc17b3968a89195ed4e959b3a5c774bde1f291b1c50a6b569339695bd0abfd496b0b5ec
+Homepage: https://github.com/kividbio/kividb
+Description: Fast Redis-compatible in-memory store written in Rust.
+License: AGPL-3.0-only
+
